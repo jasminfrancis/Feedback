@@ -1,0 +1,59 @@
+<div id="main-div" class="main-c">
+  <div class="header-c">
+    <div  class="expchild">
+      <p >{{countryLang}}</p>
+   </div>
+  </div>
+  <div class="bottom-c">
+    <div class="lang-c">
+      <div class="logoWrapper">
+        <img class="lang-logo" *ngIf="imageShow==1" src="./assets/images/flags/uk.png" (click)="changeLanague(1)" /> 
+        <img class="lang-logo" *ngIf="imageShow==2" src="./assets/images/flags/uae.png"  (click)="changeLanague(2)" />
+        <img class="lang-logo"*ngIf="imageShow==3" src="./assets/images/flags/india.jpg"  (click)="changeLanague(3)" />   
+        <img class="lang-logo" *ngIf="imageShow==4" src="./assets/images/flags/china.jpg"  (click)="changeLanague(4)" />   
+     </div>
+    </div>
+    <div class="smiley-c">
+      <div class="imageClass"> 
+        <img class="smilyImage" src="./assets/images/smiley/button5.png" (click)="clickSmiley(1)"/>  
+        <img class="smilyImage" src="./assets/images/smiley/button4.png" (click)="clickSmiley(2)"/> 
+        <img   class="smilyImage"src="./assets/images/smiley/button3.png"(click)="clickSmiley(3)" />
+        <img   class="smilyImage"src="./assets/images/smiley/button2.png" (click)="clickSmiley(4)" /> 
+        <img   class="smilyImage"src="./assets/images/smiley/button1.png" (click)="clickSmiley(5)" />
+      </div>
+    </div>
+
+
+    <!-- <div class="btnfullscren-c">
+      <div class="fullscreenImgs"> 
+        <img class="fulldcreen-logo" id="toggeleBtn"  src="./assets/images/fullscreen.jpg" (click)="toggleFullScreen(true)" /> 
+      </div>
+    </div> -->
+  </div>
+</div>
+  <!-- 
+     <div  class="expchild">
+        <p >{{countryLang}}</p>
+    </div>
+
+   <div class="smilyFlagWrapper">
+<div class="logoWrapper">
+ 
+   <img *ngIf="imageShow==1" src="/assets/images/flags/uk.png" (click)="changeLanague(1)" /> 
+   <img   *ngIf="imageShow==2" src="/assets/images/flags/uae.png"  (click)="changeLanague(2)" />
+   <img   *ngIf="imageShow==3" src="/assets/images/flags/india.jpg"  (click)="changeLanague(3)" />   
+   <img   *ngIf="imageShow==4" src="/assets/images/flags/china.jpg"  (click)="changeLanague(4)" />   
+</div>
+
+<div class="imageClass"> 
+  <img class="smilyImage" src="/assets/images/smiley/button5.png" (click)="clickSmiley(1)"/>  
+  <img class="smilyImage" src="/assets/images/smiley/button4.png" (click)="clickSmiley(2)"/> 
+  <img   class="smilyImage"src="/assets/images/smiley/button3.png"(click)="clickSmiley(3)" />
+  <img   class="smilyImage"src="/assets/images/smiley/button2.png" (click)="clickSmiley(4)" /> 
+  <img   class="smilyImage"src="/assets/images/smiley/button1.png" (click)="clickSmiley(5)" /> 
+ 
+</div>
+</div> 
+
+   -->
+   

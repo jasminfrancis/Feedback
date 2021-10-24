@@ -1,0 +1,16 @@
+.imageleft {
+
+    padding: 5px;
+    width: 30%;
+    height:30%;
+    
+  }
+  .imageright{
+      padding: 5px;
+      width: 30%;
+      height:30%;
+      float: right;
+  }
+  
+
+  

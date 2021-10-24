@@ -1,0 +1,95 @@
+
+.main-c{
+    width: 100%;
+    height: 100%;
+}
+.header-c{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.bottom-c{
+    width: 100%;
+    height: 100%;
+}
+
+.feedbackWrapper{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.feedbackChild{
+    width:75%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-content: center;
+
+}
+.btnClass{
+    border-color: transparent;
+    height: 71px;
+    width: 35%;
+    border-radius: 20px;
+    background-color: #D9BC89;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 12px;  
+}
+.feedbackForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: -3%;
+}
+
+.feadBackHead{
+  width: 100%;
+  color: #B78B3F;
+  font-family: Arial;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 51px;
+  text-align: center;
+  justify-content: center;
+  margin-right: 0%;
+  margin-bottom: 39px;
+}
+.headWrapperText{
+    text-align: right;
+}
+.feedbackArea{  
+    box-sizing: border-box;
+    height: 182px;
+    width: 50%;
+  border-radius: 20px;
+  background-color: #FFF;
+  border: 3px solid #B78B3F;
+}
+.botomSumbitBtn{
+    text-align: center;
+  justify-content: center;
+  margin-right: 0%;
+  margin-bottom: 39px;
+}
+
+@media (min-width:3200px) {
+    .feadBackHead{
+        font-size: 6rem;;
+    }
+    .feedbackArea{
+        width: 40%;
+        height: 500px;
+    }
+    .btnClass{
+        margin-top: 40px;
+        height: 125px;
+        width: 24%;
+    }
+}

@@ -1,0 +1,26 @@
+.thankWrapper{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+.thankWrapperChild{
+    text-align: center;
+}
+.thankPara{
+   
+    color: #B78B3F;
+    text-align: center;
+    font-size: 62px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+@media(min-width:3200px){
+    .thankPara{
+        font-size: 8rem
+    }
+}
