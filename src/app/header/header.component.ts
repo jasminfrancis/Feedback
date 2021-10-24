@@ -11,6 +11,7 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit():void{
+    console.log("testing");
    // this.elem=document.documentElement;
    //var btn=document.getElementById('toggeleBtn')?.click();
    //this.toggleFullScreen(this.status);
